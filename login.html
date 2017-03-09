@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ingresar</title>
+</head>
+<body>
+	<div>
+		<div>
+			<section class="form-container">
+				<form action="">
+					<label>Usuario:</label><br>
+					<input type="email" id="name" required="" placeholder="Ingrese su correo electrónico" autofocus="" /><br><br>
+					<label>Password:</label><br>
+					<input type="password" id="pass" pattern=".{6,}" title="6 o mas caracteres" required="" placeholder="Ingrese su contraseña" autofocus=""/><br><br>
+					<input type="button" id="subir" value="Login" onclick="validacion();"/>
+				</form>
+			</section>
+		</div>
+	</div>
+	<script src="js/main.js" charset="utf-8"></script>
+</body>
+</html>
